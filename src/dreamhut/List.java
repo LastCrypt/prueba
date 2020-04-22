@@ -1,7 +1,5 @@
 package dreamhut;
 
-import javax.swing.JOptionPane;
-
 
 
 public class List {
@@ -45,7 +43,7 @@ public class List {
         Node aux =first;
         while(aux!= null && aux.getLink()!=null)
             aux = aux.getLink();
-        JOptionPane.showMessageDialog(null, "holi");
+        
         return aux;
     }
     
