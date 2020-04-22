@@ -1,5 +1,7 @@
 package dreamhut;
 
+import javax.swing.JOptionPane;
+
 
 
 public class List {
@@ -237,4 +239,8 @@ public class List {
         return first;
     }
     
+    public void mensaje()
+    {
+        JOptionPane.showMessageDialog(null, "no mames wey trais el obnitix");
+    }
 }
